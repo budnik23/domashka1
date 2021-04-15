@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: heebo;
+    box-sizing: border-box;
+}
+
+body {
+   background-image: url(Background.png);
+   background-repeat: no-repeat;
+   background-color: #0079C4;
+   background-size: cover;
+   color: #FFFFFF;
+  
+   
+}
+
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    width: 410px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.adm {
+    font-size: 17px;
+}
+
+.welc {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 50px;
+}
+
+.best {
+    width: 400px;
+    max-width:95vw ;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+
+.po-pup {
+    width: 410px;
+    max-width: 95vw;
+    height: 310px;
+    background-color:#2C405A;
+    border: 1px solid #3F536E;
+    border-radius: 8px;
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.login {
+   position: relative;
+   color: #FFFFFF;
+   font-size: 17px;
+   font-style: normal;
+   font-weight: normal;
+   line-height: 22px; 
+   bottom: 70px;
+   
+}
+input.message {
+width: 310px;
+max-width: 95vw;
+height: 42px;
+border-radius: 4px;
+background: #2C405A;
+border: 1px solid #3F536E;
+}
+
+    
+
+
+
+.input {
+    width: 121px;
+    height: 42px;
+    border-radius: 4px; 
+    background: #4ECE3D;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+.forgot {
+    font-size: 13px;
+    line-height: 22px;
+    color: #0093EE;
+    opacity: 0.7;
+}
+
+.info{
+position: fixed; 
+width: 52px;
+height: 52px;
+background: rgba(0, 0, 0, 0.0001);
+box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 0.200747);
+border-radius: 100px;
+background: #4ECE3D;
+bottom: 15px;
+right: 15px;
+
+}
+
+@media (max-width: 350px) {
+    .welc {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 50px;
+        }
+}
